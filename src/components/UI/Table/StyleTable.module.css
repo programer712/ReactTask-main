@@ -1,0 +1,33 @@
+.tableWrapper{
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 1rem;
+    font-weight: 500;
+}
+.tableWrapper thead th {
+	font-weight: bold;
+	text-align: center;
+	border: none;
+	padding: 10px 15px;
+	background: #d8d8d8;
+	font-size: 14px;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+.tableWrapper tbody td {
+	text-align: left;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	padding: 10px 15px;
+	font-size: 14px;
+	vertical-align: top;
+}
+.tableWrapper thead tr th:first-child, .tableWrapper tbody tr td:first-child {
+	border-left: none;
+}
+.tableWrapper thead tr th:last-child, .tableWrapper tbody tr td:last-child {
+	border-right: none;
+}
+.tableWrapper tbody tr:nth-child(even){
+	background: #f3f3f3;
+}

@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*,ul{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*LAYOUT*/
+.container{
+  width: 100%;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+.wrapper{
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+/*PAGES STYLE*/
+.active-link{
+  color: aquamarine !important;
+  text-decoration: underline !important;
+  text-decoration-color: aquamarine !important;
+  transition: all .2s ease-in-out;
+}
+.main__wrapper,
+.container__member,.container__teams{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.container-title{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.head__title{
+  font-weight: 700;
+  font-size: 36px;
+}
+.container__table{
+  margin: 2rem auto;
+}
+.hide5sc{
+  animation: hideAnimation 0s ease-in 5s;
+  animation-fill-mode: forwards;
+}
+@keyframes hideAnimation {
+  to {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
+}
+/*Details*/
+.article-container{
+  margin-top: 2rem;
+}
+.article-container>h1{
+  text-align: center;
+}
+.article-description{
+  margin: 1rem 0;
+  line-height: 25px;
+  font-weight: 400;
+}
+.article__btn-container{
+  width: 100%;
+  text-align: center;
+}
+.article-btn{
+  margin: 0 auto;
+  margin-top: 1rem;
+  padding: 1rem;
+
+  border: 2px solid transparent;
+}
+.article-btn:hover{
+  border: 2px solid #7fffd4;
+  transition: all .2s ease-in-out;
+}

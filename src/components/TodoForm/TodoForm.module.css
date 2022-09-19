@@ -1,0 +1,38 @@
+.formTodo{
+  width: 100%;
+  max-width: 500px;
+  margin: 1rem auto;
+
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 15px;
+}
+.formField{
+  display: flex;
+  flex-direction: column;
+}
+.formLabel{
+  margin: 1rem 0;
+  font-weight: 500;
+}
+.formInput{
+  margin-bottom: 1rem;
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  outline: none;
+}
+.btnForm{
+  padding: 1rem;
+  width: 100%;
+  max-width: 250px;
+  border-radius: 15px;
+  border: 2px solid transparent;
+  outline: none;
+
+}
+.btnForm:hover{
+  transition: all .3s ease-in-out;
+  border: 2px solid #7fffd4;
+}
